@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background: #45badd;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url(/resources/images/robot.gif) no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+.container button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-family: Courier, monospace;
+  background: #ff3482;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container button:hover {
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+}
+
+.container button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.container button:disabled {
+  cursor: default;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    background-size: cover;
+    background-position: center;
+  }
+  .container button {
+    -webkit-box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+  }
+}
+/*# sourceMappingURL=style.css.map */
