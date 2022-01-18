@@ -26,7 +26,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(/resources/images/robot.gif) no-repeat;
+  background: url(/resources/images/robot.GIF) no-repeat;
   background-size: contain;
   background-position: left center;
 }
